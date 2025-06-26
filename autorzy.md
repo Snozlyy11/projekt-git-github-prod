@@ -1,7 +1,7 @@
-Szymon Ślusarczyk     Na: [xxxxxx]    |    Kacper Augustyniak    Na: [428954]
+Szymon Ślusarczyk     Na: [429004]    |    Kacper Augustyniak    Na: [428954]
 
 
-Kierownik projektu: Szymon Ślusarczyk     Na: [xxxxxx]
+Kierownik projektu: Szymon Ślusarczyk     Na: [429004]
 
     Wytkonał:
         Strona Główna (index.md)
