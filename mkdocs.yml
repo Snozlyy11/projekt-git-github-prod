@@ -1,16 +1,28 @@
+#Informacje o projekce
 site_name: Git & GitHub - Przewodnik dla Zespołów
+site_author: Szymon Ślusarczyk, Kacper Augustyniak
+site_description: >-
+  Kompleksowa instrukcja konfiguracji i pracy z systemem kontroli wersji Git
+  oraz platformą GitHub, stworzona z myślą o efektywnej pracy zespołowej.
+
+#Repozytorium
+repo_name: Snozlyy11/projekt-git-github-dev
+repo_url: https://github.com/Snozlyy11/projekt-git-github-dev
+
+#Konfiguracja
 theme:
   name: material
   language: pl
+  logo: assets/logo.png
   palette:
     - scheme: default
-      primary: indigo
+      primary: black
       accent: light-blue
       toggle:
         icon: material/brightness-7
         name: Przełącz na tryb ciemny
     - scheme: slate
-      primary: indigo
+      primary: black
       accent: light-blue
       toggle:
         icon: material/brightness-4
@@ -22,6 +34,8 @@ theme:
     - search.highlight
     - content.code.annotate
     - content.tabs.link
+
+#Drzewo stron    
 nav:
   - Strona Główna: index.md
   - Autorzy: autorzy.md
