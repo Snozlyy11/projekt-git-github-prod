@@ -1,14 +1,38 @@
 # Cel i Założenia Projektu
 
-Głównym celem tego projektu jest stworzenie kompleksowego i praktycznego przewodnika w formie kursu online, który posłuży jako instrukcja wdrożeniowa dla małych zespołów projektowych, studentów oraz początkujących programistów. Naszą misją jest pokazanie, jak dzięki systemowi kontroli wersji Git oraz platformie GitHub można wyeliminować chaos w zarządzaniu kodem, usprawnić współpracę i wprowadzić profesjonalne standardy do każdego projektu.
+Głównym celem tego projektu jest stworzenie **kompleksowego i praktycznego przewodnika** w formie kursu online, który posłuży jako instrukcja wdrożeniowa dla małych zespołów projektowych, studentów oraz początkujących programistów.
 
-Projekt krok po kroku przeprowadza użytkownika przez proces instalacji, konfiguracji i codziennego użytkowania kluczowych narzędzi wspomagających pracę zespołową. Skupiamy się na praktycznych scenariuszach, które odzwierciedlają realne interakcje w zespole, takie jak praca na gałęziach, recenzowanie kodu (code review) i rozwiązywanie konfliktów.
+Naszą misją jest pokazanie, jak dzięki systemowi kontroli wersji **Git** oraz platformie **GitHub** można wyeliminować chaos w zarządzaniu kodem, usprawnić współpracę i wprowadzić profesjonalne standardy do każdego projektu.
 
-# Dla kogo jest ten kurs?
+!!! note "Co znajdziesz w tym przewodniku?"
+- Praktyczne scenariusze pracy z Git i GitHub.
+- Teorię potrzebną do zrozumienia systemu kontroli wersji.
+- Rozwiązania najczęstszych problemów.
+- Instrukcje krok po kroku.
 
-Nasz przewodnik został stworzony z myślą o:
+---
 
-* **Studentach kierunków technicznych**, którzy rozpoczynają pracę nad pierwszymi projektami grupowymi.
-* **Początkujących programistach**, którzy chcą poznać standardy pracy obowiązujące w branży IT.
-* **Małych zespołach**, które potrzebują prostego i skutecznego systemu do zarządzania swoim kodem lub dokumentacją.
-* **Każdym, kto chce uporządkować swoją pracę** i przestać gubić się w wersjach plików.
+## Dla kogo jest ten kurs?
+
+- 🎓 **Studentów kierunków technicznych**, którzy rozpoczynają pracę nad pierwszymi projektami grupowymi.
+- 💻 **Początkujących programistów**, którzy chcą poznać standardy pracy obowiązujące w branży IT.
+- 🧑‍🤝‍🧑 **Małych zespołów**, które potrzebują prostego i skutecznego systemu do zarządzania kodem lub dokumentacją.
+- 📁 **Każdego, kto chce uporządkować swoją pracę** i przestać gubić się w wersjach plików.
+
+---
+
+## Dlaczego warto korzystać z Git i GitHub?
+
+- ✅ Unikasz utraty danych dzięki wersjonowaniu.
+- ✅ Ułatwiasz pracę zespołową — każdy pracuje na własnych gałęziach.
+- ✅ Możesz przeglądać historię zmian i wracać do wcześniejszych wersji.
+- ✅ GitHub umożliwia współpracę, code review i automatyczne testy.
+- ✅ Lepsza organizacja pracy i eliminacja konfliktów w kodzie.
+
+---
+
+## Co znajdziesz w tym przewodniku?
+
+- [📖 Teoria — Wprowadzenie do Git i GitHub](teoria.md)
+- [🛠️ Przykłady — Warsztat Praktyczny](przyklady.md)
+- [🆘 Najczęstsze problemy i ich rozwiązania](problemy.md)
