@@ -42,7 +42,7 @@ nav:
   - Teoria - Kurs Git i GitHub:
     - Wprowadzenie: teoria.md
   - Przykłady - Warsztat Praktyczny:
-    - Wprowadzenie: przykłady.md
+    - praktyka/index.md
 
 markdown_extensions:
   - pymdownx.highlight:
