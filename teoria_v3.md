@@ -98,7 +98,7 @@ Wprowadź zmiany i zatwierdź je na nowej gałęzi:
 |--  
 | git add nowa-funkcja.txt    
 | git commit -m "Dodano plik z nową funkcją"  
-|--
+ 
 
 Wróć na gałąź główną:
 
