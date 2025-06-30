@@ -19,8 +19,9 @@ użytkownika. Będą one widoczne w historii twoich commitów.
 | Bash 
 
     git config --global user.name "Twoje Imię i Nazwisko"    
-      
-    | git config --global user.email "twój.email@example.com"       
+
+
+        git config --global user.email "twój.email@example.com"       
 
 
 Krok 3: Tworzenie Repozytorium (Lokalnie)
