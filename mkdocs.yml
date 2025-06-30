@@ -45,6 +45,7 @@ nav:
     - praktyka/index.md
     - Instalacja Gita: praktyka/instalacja.md
     - Konfiguracja Gita: praktyka/konfiguracja.md
+    - Praca z repozytorium: praktyka/praca-z-repo.md
 
 markdown_extensions:
   - pymdownx.highlight:
