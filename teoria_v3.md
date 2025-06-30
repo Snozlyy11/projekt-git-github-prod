@@ -27,6 +27,7 @@ Stwórz nowy folder projektu:
 
 Bash
 
+
 mkdir moj-projekt-git
 cd moj-projekt-git
 
