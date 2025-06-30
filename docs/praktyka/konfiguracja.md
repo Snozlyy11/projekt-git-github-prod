@@ -44,7 +44,7 @@ cd nasz-projekt
     
     Jeśli mamy problem z odnaleziem się w plikach, z pomocą przychodzi nam komenda "ls" wyświelta ona drzewo plików w aktualnie znajdującym się folderze.
 
-### Krok drugi to inicjalizacja repozytorium
+### Drugi krok to inicjalizacja repozytorium
 
 ```bash
 git init
@@ -53,7 +53,7 @@ git init
 ???note "Co robi git init?"
     Utworzy to ukryty folder .git, który śledzi zmiany w naszym repozytorium.
 
-### Krok trzeci, dodajemy plik (np. test.txt)
+### Trzeci krok, dodajemy plik (np. test.txt)
 
 ```bash
 touch plik.txt
