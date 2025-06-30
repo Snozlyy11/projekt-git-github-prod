@@ -13,7 +13,7 @@ git config --global user.email "twojemail@example.com"
 
 ??? note "Dlaczego --global?"
 
-    --global — oznacza, że ta konfiguracja obowiązuje dla wszystkich repozytoriów na Twoim komputerze.
+    `--global` — oznacza, że ta konfiguracja obowiązuje dla wszystkich repozytoriów na Twoim komputerze.
 
 ## Sprawdzenie konfiguracji
 
@@ -42,7 +42,7 @@ cd nasz-projekt
 
 ???question "Co jeśli nie wiemy gdzie się znajdujemy?"
     
-    Jeśli mamy problem z odnaleziem się w plikach, z pomocą przychodzi nam komenda "ls" wyświelta ona drzewo plików w aktualnie znajdującym się folderze.
+    Jeśli mamy problem z odnaleziem się w plikach, z pomocą przychodzi nam komenda `ls` wyświelta ona drzewo plików w aktualnie znajdującym się folderze.
 
 ### Drugi krok to inicjalizacja repozytorium
 
@@ -51,7 +51,7 @@ git init
 ```
 
 ???note "Co robi git init?"
-    Utworzy to ukryty folder .git, który śledzi zmiany w naszym repozytorium.
+    Utworzy to ukryty folder `.git`, który śledzi zmiany w naszym repozytorium.
 
 ### Trzeci krok, dodajemy plik (np. test.txt)
 
@@ -62,9 +62,9 @@ git commit -m "Inicjalny commit"
 ```
 
 ???note "Rozpiska poszczególnych komend"
-    **touch plik.txt** -> Tworzy pusty plik plik.txt w bieżącym katalogu.
-    **git add .** -> Kropka (.) oznacza „dodaj wszystko, co zmienione w tym katalogu i podkatalogach”.
-    **git commit -m "Inicjalny commit"** -> Tworzysz zapis w historii repozytorium z wiadomością "Inicjalny commit".
+    `touch plik.txt` -> Tworzy pusty plik plik.txt w bieżącym katalogu.
+    `git add .` -> Kropka (.) oznacza „dodaj wszystko, co zmienione w tym katalogu i podkatalogach”.
+    `git commit -m "Inicjalny commit"` -> Tworzysz zapis w historii repozytorium z wiadomością "Inicjalny commit".
 
 ## Połączenie z Github
 
@@ -88,4 +88,4 @@ git push -u origin main
 ```
 
 ???note 
-    **git push -u origin main** -> Wysyła gałąź main do GitHub i ustawia śledzenie zdalnej
+    ``git push -u origin main`` -> Wysyła gałąź main do GitHub i ustawia śledzenie zdalnej

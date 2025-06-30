@@ -25,13 +25,13 @@ W tej części krok po kroku przejdziemy przez etap instalacji Gita na Windowsie
 ### Etap 6 - Wybranie start menu folder (Standard)
 ![Etap 6](../assets/git/6.png)
 
-### Etap 7 - Wybór domyślnego edytora Git
+### Etap 7 - Wybór domyślnego edytora Git (Opcjonalne)
 ![Etap 7](../assets/git/7.png)
 
-### Etap 8 - Wybór nazwy głównego brancha repo
+### Etap 8 - Wybór nazwy głównego brancha repo (Opcjonalne)
 ![Etap 8](../assets/git/8.png)
 
-### Etap 9 - Wybór ścieżki
+### Etap 9 - Wybór ścieżki  (Opcjonalne)
 ![Etap 9](../assets/git/9.png)
 
 ### Etap 10 - Wybór klienta SSH
@@ -43,7 +43,7 @@ W tej części krok po kroku przejdziemy przez etap instalacji Gita na Windowsie
 ### Etap 12 - Line endings
 ![Etap 12](../assets/git/12.png)
 
-### Etap 13 - Terminal emulator
+### Etap 13 - Terminal emulator (Opcjonalne)
 ![Etap 13](../assets/git/13.png)
 
 ### Etap 14 - Zachowanie "git pull"

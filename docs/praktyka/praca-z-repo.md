@@ -44,7 +44,7 @@ git pull origin main
 ```
 
 ???note "Co robi git pull?"
-    git pull pobiera zmiany z GitHub i od razu próbuje je połączyć z lokalnymi.
+    `git pull` pobiera zmiany z GitHub i od razu próbuje je połączyć z lokalnymi.
 
 ## Wysyłanie zmian na GitHub
 
@@ -116,7 +116,7 @@ git rebase feature/nazwa-funkcji
 git reset --soft HEAD~1
 ```
 
-???note "Co robi --soft?"
+???note "Co robi `--soft`?"
     Cofa ostatni commit. Zachowuje zmiany w plikach — wracają do stanu „staged” (czyli jak po git add).
 
 ### --hard
@@ -125,7 +125,7 @@ git reset --soft HEAD~1
 git reset --hard HEAD~1
 ```
 
-???note "Co robi --hard?"
+???note "Co robi `--hard`?"
     Cofa ostatni commit. Usuwa całkowicie zmiany w plikach. Przywraca stan repozytorium do takiego, jaki był przed tym commitem.
 
 ## Przegląd historii commitów
