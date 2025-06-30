@@ -26,17 +26,17 @@ Krok 3: Tworzenie Repozytorium (Lokalnie)
 
 Stwórz nowy folder projektu:
 
-| Bash  
-|     
+| Bash       
 | mkdir moj-projekt-git  
+|--   
 | cd moj-projekt-git  
 
 
 Zainicjuj repozytorium Git w tym folderze:
 
-| Bash  
-|     
+| Bash        
 | git init  
+|--
 
 To tworzy ukryty folder .git, który przechowuje całą historię twojego repozytorium.
 
