@@ -44,24 +44,24 @@ Krok 4: Dodawanie Plików i Commitowanie Zmian
 
 Stwórz plik w swoim projekcie:
 
-| Bash  
-|     
-| echo "Witaj w moim pierwszym projekcie Git!" > index.html  
+| Bash     
+| echo "Witaj w moim pierwszym projekcie Git!" > index.html 
+|--   
 
 Dodaj plik do obszaru przechowalni (staging area):
 
 | Bash  
-|     
 | git add index.html  
+|--   
 
 Obszar przechowalni to miejsce, gdzie tymczasowo umieszczasz pliki, które chcesz 
 dołączyć do następnego commita. Możesz dodać wszystkie pliki naraz używając git add .
 
 Zatwierdź (commit) zmiany:
 
-| Bash  
-|     
-| git commit -m "Pierwszy commit: Dodano plik index.html"  
+| Bash     
+| git commit -m "Pierwszy commit: Dodano plik index.html" 
+|--   
 
 Flaga -m pozwala na dodanie krótkiej wiadomości opisującej commit. Zawsze staraj się 
 pisać zrozumiałe wiadomości commitów!
@@ -71,32 +71,33 @@ Krok 5: Praca z Gałęziami (Branches)
 
 Sprawdź, na której gałęzi jesteś:
 
-| Bash  
-|       
-| git branch  
+| Bash       
+| git branch 
+|--   
 
 Domyślnie będziesz na gałęzi master (lub main).
 
 Stwórz nową gałąź:
 
-| Bash  
-|       
-| git branch nowa-funkcja  
+| Bash        
+| git branch nowa-funkcja 
+|--   
 
 Przełącz się na nową gałąź:
 
-| Bash  
-|      
-| git checkout nowa-funkcja  
+| Bash        
+| git checkout nowa-funkcja
+|--    
 
 Teraz możesz bezpiecznie wprowadzać zmiany, nie wpływając na główną gałąź.
 
 Wprowadź zmiany i zatwierdź je na nowej gałęzi:
 
-| Bash  
-|      
+| Bash       
 | echo "To jest nowa funkcja." >> nowa-funkcja.txt  
+|--  
 | git add nowa-funkcja.txt  
+|--  
 | git commit -m "Dodano plik z nową funkcją"  
 
 Wróć na gałąź główną:
