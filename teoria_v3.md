@@ -193,6 +193,7 @@ lokalny komputer:
 
 
 Ważne Wskazówki
+---------------
 
 - Częste Commity: Robienie małych, częstych commitów z jasnymi wiadomościami ułatwia 
   śledzenie zmian i rozwiązywanie problemów.
