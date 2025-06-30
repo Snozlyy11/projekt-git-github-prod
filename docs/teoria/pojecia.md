@@ -1,4 +1,4 @@
-Kluczowe pojęcia Git i GitHub
+# Kluczowe pojęcia Git i GitHub
 Repozytorium
 Zbiór plików projektu oraz pełna historia zmian.
 
@@ -7,14 +7,14 @@ Repozytorium zdalne — na GitHub.
 
 ---
 
-Commit
+## Commit
 Zapis zmian w repozytorium.
 
 Tworzy migawkę (snapshot) stanu projektu w danym momencie.
 
 ---
 
-Branch (Gałąź)
+## Branch (Gałąź)
 Oddzielna linia rozwoju.
 
 Umożliwia wprowadzanie zmian niezależnie od innych.
@@ -22,24 +22,24 @@ Domyślny branch to zazwyczaj main.
 
 ---
 
-Merge
+## Merge
 Scalanie dwóch branchy w jeden.
 
 ---
 
-Konflikt
+## Konflikt
 Gdy dwa branche zmieniają ten sam fragment pliku i Git nie wie, który wybrać.
 
 ---
 
-Pull Request (PR)
+## Pull Request (PR)
 Propozycja połączenia zmian z jednego branchu (np. feature) do innego (main).
 
 Zawiera komentarze, review i zatwierdzenie.
 
 ---
 
-Operacje zdalne
+## Operacje zdalne
 Push — wysyłanie zmian do repozytorium zdalnego.
 Pull — pobieranie zmian z repozytorium zdalnego.
 Clone — sklonowanie całego repozytorium.
