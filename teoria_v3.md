@@ -15,13 +15,11 @@ Krok 2: Konfiguracja Git
 Po instalacji, otwórz terminal (lub Git Bash w systemie Windows) i skonfiguruj swoje dane 
 użytkownika. Będą one widoczne w historii twoich commitów.
 
-                                                         
+|--                                                             
 | Bash        
-|--                                                      
-|                                                    
+|                                                                                                         
 | git config --global user.name "Twoje Imię i Nazwisko"    
-| git config --global user.email "twój.email@example.com"  
-|     
+| git config --global user.email "twój.email@example.com"      
 |--    
 
 
