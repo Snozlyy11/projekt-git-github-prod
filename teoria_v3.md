@@ -16,27 +16,27 @@ Po instalacji, otwórz terminal (lub Git Bash w systemie Windows) i skonfiguruj 
 użytkownika. Będą one widoczne w historii twoich commitów.
 
                                                    
-| Bash                                                   
+| Bash                                                     
 |                                                    
-| git config --global user.name "Twoje Imię i Nazwisko"  
-| git config --global user.email "twój.email@example.com"
+| git config --global user.name "Twoje Imię i Nazwisko"    
+| git config --global user.email "twój.email@example.com"  
 
 
 Krok 3: Tworzenie Repozytorium (Lokalnie)
 
 Stwórz nowy folder projektu:
 
-| Bash
+| Bash  
 |     
-| mkdir moj-projekt-git
-| cd moj-projekt-git
+| mkdir moj-projekt-git  
+| cd moj-projekt-git  
 
 
 Zainicjuj repozytorium Git w tym folderze:
 
-| Bash
+| Bash  
 |     
-| git init
+| git init  
 
 To tworzy ukryty folder .git, który przechowuje całą historię twojego repozytorium.
 
@@ -44,24 +44,24 @@ Krok 4: Dodawanie Plików i Commitowanie Zmian
 
 Stwórz plik w swoim projekcie:
 
-| Bash
+| Bash  
 |     
-| echo "Witaj w moim pierwszym projekcie Git!" > index.html
+| echo "Witaj w moim pierwszym projekcie Git!" > index.html  
 
 Dodaj plik do obszaru przechowalni (staging area):
 
-| Bash
+| Bash  
 |     
-| git add index.html
+| git add index.html  
 
 Obszar przechowalni to miejsce, gdzie tymczasowo umieszczasz pliki, które chcesz 
 dołączyć do następnego commita. Możesz dodać wszystkie pliki naraz używając git add .
 
 Zatwierdź (commit) zmiany:
 
-| Bash
+| Bash  
 |     
-| git commit -m "Pierwszy commit: Dodano plik index.html"
+| git commit -m "Pierwszy commit: Dodano plik index.html"  
 
 Flaga -m pozwala na dodanie krótkiej wiadomości opisującej commit. Zawsze staraj się 
 pisać zrozumiałe wiadomości commitów!
@@ -71,45 +71,45 @@ Krok 5: Praca z Gałęziami (Branches)
 
 Sprawdź, na której gałęzi jesteś:
 
-| Bash
-|     
-| git branch
+| Bash  
+|       
+| git branch  
 
 Domyślnie będziesz na gałęzi master (lub main).
 
 Stwórz nową gałąź:
 
-| Bash
-|     
-| git branch nowa-funkcja
+| Bash  
+|       
+| git branch nowa-funkcja  
 
 Przełącz się na nową gałąź:
 
-| Bash
-|     
-| git checkout nowa-funkcja
+| Bash  
+|      
+| git checkout nowa-funkcja  
 
 Teraz możesz bezpiecznie wprowadzać zmiany, nie wpływając na główną gałąź.
 
 Wprowadź zmiany i zatwierdź je na nowej gałęzi:
 
-| Bash
+| Bash  
 |      
-| echo "To jest nowa funkcja." >> nowa-funkcja.txt
-| git add nowa-funkcja.txt
-| git commit -m "Dodano plik z nową funkcją"
+| echo "To jest nowa funkcja." >> nowa-funkcja.txt  
+| git add nowa-funkcja.txt  
+| git commit -m "Dodano plik z nową funkcją"  
 
 Wróć na gałąź główną:
 
-| Bash
+| Bash  
 |     
-| git checkout master
+| git checkout master  
 
 Scal zmiany z "nowa-funkcja" do "master":
-
-| Bash
+ 
+| Bash  
 |     
-| git merge nowa-funkcja
+| git merge nowa-funkcja  
 
 Git spróbuje połączyć zmiany. Jeśli wystąpią konflikty (np. dwie osoby zmieniły tę samą linię 
 kodu), będziesz musiał je rozwiązać ręcznie.
@@ -136,11 +136,11 @@ Połącz swoje lokalne repozytorium ze zdalnym:
 Po utworzeniu repozytorium na GitHubie, zobaczysz instrukcje, jak połączyć istniejące 
 lokalne repozytorium. Będą wyglądać mniej więcej tak:
 
-| Bash
+| Bash  
 |     
-| git remote add origin https://github.com/TwojaNazwaUzytkownika/moj-pierwszy-projekt-git.git
-| git branch -M main # Zmień master na main, jeśli jeszcze tego nie zrobiłeś
-| git push -u origin main
+| git remote add origin https://github.com/TwojaNazwaUzytkownika/moj-pierwszy-projekt-git.git  
+| git branch -M main # Zmień master na main, jeśli jeszcze tego nie zrobiłeś  
+| git push -u origin main  
 
 
 - git remote add origin ... : Dodaje zdalne repozytorium pod nazwą origin.
@@ -157,9 +157,9 @@ Pobieranie zmian z GitHuba (pull):
 Jeśli ktoś inny wprowadził zmiany do repozytorium na GitHubie, możesz je pobrać na swój 
 lokalny komputer:
 
-| Bash
+| Bash  
 |     
-| git pull origin main
+| git pull origin main  
 
 
 Ważne Wskazówki
