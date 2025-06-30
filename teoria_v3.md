@@ -3,6 +3,7 @@ Jak Zacząć? Praktyczny Przewodnik
 
 Krok 1: Instalacja Git
 |-- 
+
 - Pobierz Git: Odwiedź oficjalną stronę Gita: https://git-scm.com/downloads i pobierz 
   odpowiednią wersję dla twojego systemu operacyjnego.
 
@@ -11,6 +12,7 @@ Krok 1: Instalacja Git
 
 
 Krok 2: Konfiguracja Git
+|-- 
 
 Po instalacji, otwórz terminal (lub Git Bash w systemie Windows) i skonfiguruj swoje dane 
 użytkownika. Będą one widoczne w historii twoich commitów.
@@ -25,6 +27,7 @@ użytkownika. Będą one widoczne w historii twoich commitów.
 
 
 Krok 3: Tworzenie Repozytorium (Lokalnie)
+|--  
 
 Stwórz nowy folder projektu:
 
@@ -46,6 +49,7 @@ Zainicjuj repozytorium Git w tym folderze:
 To tworzy ukryty folder .git, który przechowuje całą historię twojego repozytorium.
 
 Krok 4: Dodawanie Plików i Commitowanie Zmian
+|--  
 
 Stwórz plik w swoim projekcie:
 
@@ -76,6 +80,7 @@ pisać zrozumiałe wiadomości commitów!
 
 
 Krok 5: Praca z Gałęziami (Branches)
+|--   
 
 Sprawdź, na której gałęzi jesteś:
 
@@ -133,6 +138,8 @@ Git spróbuje połączyć zmiany. Jeśli wystąpią konflikty (np. dwie osoby zm
 kodu), będziesz musiał je rozwiązać ręcznie.
 
 Krok 6: Praca z GitHubem (Zdalne Repozytoria)
+|--   
+
 
 Utwórz konto na GitHubie: Jeśli jeszcze go nie masz, wejdź na https://github.com/ i załóż 
 konto.
