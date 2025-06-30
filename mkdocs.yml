@@ -43,6 +43,7 @@ nav:
     - Wprowadzenie: teoria.md
   - Przykłady - Warsztat Praktyczny:
     - praktyka/index.md
+    - Instalacja i konfiguracja Gita: praktyka/instalacja.md
 
 markdown_extensions:
   - pymdownx.highlight:
