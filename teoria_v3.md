@@ -96,9 +96,9 @@ Wprowadź zmiany i zatwierdź je na nowej gałęzi:
 | Bash       
 | echo "To jest nowa funkcja." >> nowa-funkcja.txt  
 |--  
-| git add nowa-funkcja.txt  
-|--  
+| git add nowa-funkcja.txt    
 | git commit -m "Dodano plik z nową funkcją"  
+|--
 
 Wróć na gałąź główną:
 
