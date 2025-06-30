@@ -137,7 +137,7 @@ Po utworzeniu repozytorium na GitHubie, zobaczysz instrukcje, jak połączyć is
 lokalne repozytorium. Będą wyglądać mniej więcej tak:
 
 | Bash
-
+|
 | git remote add origin https://github.com/TwojaNazwaUzytkownika/moj-pierwszy-projekt-git.git
 | git branch -M main # Zmień master na main, jeśli jeszcze tego nie zrobiłeś
 | git push -u origin main
