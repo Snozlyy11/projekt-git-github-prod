@@ -14,6 +14,7 @@ theme:
   name: material
   language: pl
   logo: assets/logo.png
+  favicon: assets/favicon.png
   palette:
     - scheme: default
       primary: black
