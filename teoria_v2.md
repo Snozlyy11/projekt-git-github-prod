@@ -1,4 +1,5 @@
 Podstawowe Koncepcje
+--------------------
 
 - Repozytorium (Repo): To folder projektu śledzony przez Git. Zawiera wszystkie pliki projektu, a także historię zmian.
 
