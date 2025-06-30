@@ -29,7 +29,7 @@ nav:
     - Wprowadzenie: index.md
     - Wprowadzenie1: teoria_v1.md
     - Wprowadzenie2: teoria_v2.md
-    - Wprowadzenie3: teoria_v3.md
+    - Wprowadzenie3: teoria/workflow.md
   - Przykłady - Warsztat Praktyczny:
     - Wprowadzenie: przykłady/index.md
 
