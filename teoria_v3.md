@@ -1,5 +1,5 @@
 Jak Zacząć? Praktyczny Przewodnik
-
+------
 
 Krok 1: Instalacja Git
 
