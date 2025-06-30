@@ -34,9 +34,9 @@ cd moj-projekt-git
 Zainicjuj repozytorium Git w tym folderze:
 
 Bash
---------------------
+
 git init
---------------------
+
 To tworzy ukryty folder .git, który przechowuje całą historię twojego repozytorium.
 
 Krok 4: Dodawanie Plików i Commitowanie Zmian
