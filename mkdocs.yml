@@ -40,10 +40,15 @@ nav:
   - Strona Główna: index.md
   - Autorzy: autorzy.md
   - Teoria - Kurs Git i GitHub:
-    - Wprowadzenie: teoria.md
+    - teoria/index.md
+    - Git vs Github: teoria/git-vs-github.md
+    - Kluczowe pojęcia: teoria/pojecia.md
+    - Modele pracy zespołowej: teoria/workflow.md
   - Przykłady - Warsztat Praktyczny:
-    - Wprowadzenie: przykłady.md
-
+    - praktyka/index.md
+    - Instalacja Gita: praktyka/instalacja.md
+    - Konfiguracja Gita: praktyka/konfiguracja.md
+    - Praca z repozytorium: praktyka/praca-z-repo.md
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
