@@ -3,30 +3,29 @@ Jak Zacząć? Praktyczny Przewodnik
 
 Krok 1: Instalacja Git
 
-Pobierz Git: Odwiedź oficjalną stronę Gita: https://git-scm.com/downloads i pobierz 
-odpowiednią wersję dla twojego systemu operacyjnego.
+- Pobierz Git: Odwiedź oficjalną stronę Gita: https://git-scm.com/downloads i pobierz 
+  odpowiednią wersję dla twojego systemu operacyjnego.
 
-Zainstaluj Git: Postępuj zgodnie z instrukcjami instalacji. W większości przypadków możesz 
-po prostu klikać "Dalej".
+- Zainstaluj Git: Postępuj zgodnie z instrukcjami instalacji. W większości przypadków możesz 
+  po prostu klikać "Dalej".
 
 
 Krok 2: Konfiguracja Git
 
 Po instalacji, otwórz terminal (lub Git Bash w systemie Windows) i skonfiguruj swoje dane 
 użytkownika. Będą one widoczne w historii twoich commitów.
-
+"
 Bash
 
 git config --global user.name "Twoje Imię i Nazwisko"
 git config --global user.email "twój.email@example.com"
-
+"
 
 Krok 3: Tworzenie Repozytorium (Lokalnie)
 
 Stwórz nowy folder projektu:
 
 Bash
-
 
 mkdir moj-projekt-git
 cd moj-projekt-git
