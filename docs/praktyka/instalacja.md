@@ -1,4 +1,4 @@
-# Instalacja i konfiguracja Gita
+# Instalacja Gita
 
 W tej części krok po kroku przejdziemy przez etap instalacji Gita na Windowsie. Później skonfigurujemy konto użytkownika, aż na końcu utworzymy sobie repozytorium lokalne.
 
@@ -55,4 +55,4 @@ W tej części krok po kroku przejdziemy przez etap instalacji Gita na Windowsie
 ### Etap 16 - Zakończenie konfiguracji instalatora, instalacja
 ![Etap 16](../assets/git/16.png)
 
-## Po zakończeniu instalacji możemy przejść do naszego następnego kroku, czyli konfiguracji **Gita**
+## Po zakończeniu instalacji przejdź do kolejnego kroku — [Konfiguracja Gita](konfiguracja.md).
