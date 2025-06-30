@@ -2,7 +2,7 @@ Jak Zacząć? Praktyczny Przewodnik
 ------
 
 Krok 1: Instalacja Git
-
+|-- 
 - Pobierz Git: Odwiedź oficjalną stronę Gita: https://git-scm.com/downloads i pobierz 
   odpowiednią wersję dla twojego systemu operacyjnego.
 
