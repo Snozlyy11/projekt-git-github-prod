@@ -1,4 +1,4 @@
-Wprowadzenie do Git i GitHub
+# Wprowadzenie do Git i GitHub
 W tej sekcji poznasz podstawowe pojęcia związane z systemem kontroli wersji Git oraz platformą współpracy GitHub.
 
 Dlaczego Git?

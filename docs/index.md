@@ -61,6 +61,6 @@ Naszą misją jest pokazanie, jak dzięki systemowi kontroli wersji **Git** oraz
 
 ## Co znajdziesz w tym przewodniku?
 
-- [📖 Teoria — Wprowadzenie do Git i GitHub](teoria.md)
-- [🛠️ Przykłady — Warsztat Praktyczny](przyklady.md)
-- [🆘 Najczęstsze problemy i ich rozwiązania](problemy.md)
+- [📖 Teoria — Wprowadzenie do Git i GitHub](teoria/index.md)
+- [🛠️ Umiejętności praktyczne](teoria/index.md)
+- [🧑‍🤝‍🧑 Modele pracy zespołowej](teoria/workflow.md)
