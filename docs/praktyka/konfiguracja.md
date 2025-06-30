@@ -66,3 +66,26 @@ git commit -m "Inicjalny commit"
     **git add .** -> Kropka (.) oznacza „dodaj wszystko, co zmienione w tym katalogu i podkatalogach”.
     **git commit -m "Inicjalny commit"** -> Tworzysz zapis w historii repozytorium z wiadomością "Inicjalny commit".
 
+## Połączenie z Github
+
+Aby można było połączyć **repozytorium lokalne** z Github, musimy udać się na stronę i tworzyć tam swoje pierwsze **repozytorium zdalne**. Jednka tutaj tylko pokażemy jak połączyć je ze sobą w bashu i za jego pomocą wysłać zmiany do repozytorium zdalnego na Github'ie
+
+### Zmień nazwę głównej gałęzi na main
+```bash
+git branch -M main
+```
+
+### Dodanie zdalnego repozytorium z Github'u
+
+```bash
+git remote add origin https://github.com/twoja-nazwa/nasz-projekt.git
+```
+
+### Wysłanie naszych zmian na Github
+
+```bash
+git push -u origin main
+```
+
+???note 
+    **git push -u origin main** -> Wysyła gałąź main do GitHub i ustawia śledzenie zdalnej
