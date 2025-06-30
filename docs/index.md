@@ -1,17 +1,27 @@
-# Welcome to MkDocs
+# Wprowadzenie do Git i GitHub
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+W tej sekcji poznasz podstawowe pojęcia związane z systemem kontroli wersji **Git** oraz platformą współpracy **GitHub**.
 
-## Commands
+## Dlaczego Git?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Git to narzędzie, które pomaga:
 
-## Project layout
+- Zarządzać wersjami projektu.
+- Zapisywać historię zmian.
+- Współpracować w zespole bez ryzyka nadpisywania pracy innych.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Dlaczego GitHub?
+
+GitHub to platforma oparta na Git, która umożliwia:
+
+- Przechowywanie repozytoriów w chmurze.
+- Współpracę z innymi.
+- Przeglądanie zmian, komentowanie, zarządzanie zadaniami i wersjami projektu.
+
+## Co znajdziesz w tej sekcji?
+
+- Wyjaśnienie różnic między Git a GitHub.
+- Kluczowe pojęcia używane w pracy z Git.
+- Przykładowy workflow pracy z Git i GitHub.
+
+---

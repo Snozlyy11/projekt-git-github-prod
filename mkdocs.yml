@@ -26,7 +26,10 @@ nav:
   - Strona Główna: index.md
   - Autorzy: autorzy.md
   - Teoria - Kurs Git i GitHub:
-    - Wprowadzenie: teoria/index.md
+    - Wprowadzenie: index.md
+    - Wprowadzenie1: teoria_v1.md
+    - Wprowadzenie2: teoria_v2.md
+    - Wprowadzenie3: teoria_v3.md
   - Przykłady - Warsztat Praktyczny:
     - Wprowadzenie: przykłady/index.md
 

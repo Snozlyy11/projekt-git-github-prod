@@ -1,4 +1,3 @@
-
 Git i GitHub w Pigułce
 ----------------------
 
