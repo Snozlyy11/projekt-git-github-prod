@@ -19,7 +19,7 @@ użytkownika. Będą one widoczne w historii twoich commitów.
 | Bash 
 
     git config --global user.name "Twoje Imię i Nazwisko"   
---
+--  
 
     git config --global user.email "twój.email@example.com"       
 
@@ -28,17 +28,20 @@ Krok 3: Tworzenie Repozytorium (Lokalnie)
 
 Stwórz nowy folder projektu:
 
-| Bash       
-| mkdir moj-projekt-git  
-|--   
-| cd moj-projekt-git  
+| Bash  
+
+    mkdir moj-projekt-git  
+--   
+
+    cd moj-projekt-git  
 
 
 Zainicjuj repozytorium Git w tym folderze:
 
-| Bash        
-| git init  
-|--
+| Bash  
+
+    git init  
+
 
 To tworzy ukryty folder .git, który przechowuje całą historię twojego repozytorium.
 
@@ -46,24 +49,27 @@ Krok 4: Dodawanie Plików i Commitowanie Zmian
 
 Stwórz plik w swoim projekcie:
 
-| Bash     
-| echo "Witaj w moim pierwszym projekcie Git!" > index.html 
-|--   
+| Bash
+
+    echo "Witaj w moim pierwszym projekcie Git!" > index.html 
+  
 
 Dodaj plik do obszaru przechowalni (staging area):
 
-| Bash  
-| git add index.html  
-|--   
+| Bash 
+  
+    git add index.html  
+  
 
 Obszar przechowalni to miejsce, gdzie tymczasowo umieszczasz pliki, które chcesz 
 dołączyć do następnego commita. Możesz dodać wszystkie pliki naraz używając git add .
 
 Zatwierdź (commit) zmiany:
 
-| Bash     
-| git commit -m "Pierwszy commit: Dodano plik index.html" 
-|--   
+| Bash
+
+    git commit -m "Pierwszy commit: Dodano plik index.html" 
+  
 
 Flaga -m pozwala na dodanie krótkiej wiadomości opisującej commit. Zawsze staraj się 
 pisać zrozumiałe wiadomości commitów!
@@ -73,46 +79,55 @@ Krok 5: Praca z Gałęziami (Branches)
 
 Sprawdź, na której gałęzi jesteś:
 
-| Bash       
-| git branch 
-|--   
+| Bash 
+
+    git branch 
+  
 
 Domyślnie będziesz na gałęzi master (lub main).
 
 Stwórz nową gałąź:
 
-| Bash        
-| git branch nowa-funkcja 
-|--   
+| Bash 
+
+    git branch nowa-funkcja 
+  
 
 Przełącz się na nową gałąź:
 
-| Bash        
-| git checkout nowa-funkcja
-|--    
+| Bash 
+
+    git checkout nowa-funkcja
+   
 
 Teraz możesz bezpiecznie wprowadzać zmiany, nie wpływając na główną gałąź.
 
 Wprowadź zmiany i zatwierdź je na nowej gałęzi:
 
-| Bash       
-| echo "To jest nowa funkcja." >> nowa-funkcja.txt  
-|--  
-| git add nowa-funkcja.txt    
-| git commit -m "Dodano plik z nową funkcją"  
+| Bash
+
+    echo "To jest nowa funkcja." >> nowa-funkcja.txt  
+--  
+
+    git add nowa-funkcja.txt
+--  
+
+    git commit -m "Dodano plik z nową funkcją"  
  
 
 Wróć na gałąź główną:
 
-| Bash       
-| git checkout master  
-|--  
+| Bash
+
+    git checkout master  
+ 
 
 Scal zmiany z "nowa-funkcja" do "master":
  
-| Bash  
-| git merge nowa-funkcja  
-|--  
+| Bash 
+  
+    git merge nowa-funkcja  
+ 
 
 Git spróbuje połączyć zmiany. Jeśli wystąpią konflikty (np. dwie osoby zmieniły tę samą linię 
 kodu), będziesz musiał je rozwiązać ręcznie.
@@ -139,11 +154,15 @@ Połącz swoje lokalne repozytorium ze zdalnym:
 Po utworzeniu repozytorium na GitHubie, zobaczysz instrukcje, jak połączyć istniejące 
 lokalne repozytorium. Będą wyglądać mniej więcej tak:
 
-| Bash   
-| git remote add origin https://github.com/TwojaNazwaUzytkownika/moj-pierwszy-projekt-git.git  
-|--   
-| git branch -M main # Zmień master na main, jeśli jeszcze tego nie zrobiłeś  
-| git push -u origin main  
+| Bash 
+
+    git remote add origin https://github.com/TwojaNazwaUzytkownika/moj-pierwszy-projekt-git.git  
+--  
+
+    git branch -M main # Zmień master na main, jeśli jeszcze tego nie zrobiłeś  
+--  
+
+    git push -u origin main  
 
 
 - git remote add origin ... : Dodaje zdalne repozytorium pod nazwą origin.
@@ -160,9 +179,10 @@ Pobieranie zmian z GitHuba (pull):
 Jeśli ktoś inny wprowadził zmiany do repozytorium na GitHubie, możesz je pobrać na swój 
 lokalny komputer:
 
-| Bash     
-| git pull origin main  
-|--  
+| Bash 
+
+    git pull origin main  
+ 
 
 
 Ważne Wskazówki
