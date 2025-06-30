@@ -1,5 +1,6 @@
 
 Git i GitHub w Pigułce
+----------------------
 
 
 Git: to system kontroli wersji, który śledzi zmiany w plikach i pozwala wielu osobom 
