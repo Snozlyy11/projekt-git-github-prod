@@ -102,15 +102,15 @@ Wprowadź zmiany i zatwierdź je na nowej gałęzi:
 
 Wróć na gałąź główną:
 
-| Bash  
-|     
+| Bash       
 | git checkout master  
+|--  
 
 Scal zmiany z "nowa-funkcja" do "master":
  
 | Bash  
-|     
 | git merge nowa-funkcja  
+|--  
 
 Git spróbuje połączyć zmiany. Jeśli wystąpią konflikty (np. dwie osoby zmieniły tę samą linię 
 kodu), będziesz musiał je rozwiązać ręcznie.
@@ -137,9 +137,9 @@ Połącz swoje lokalne repozytorium ze zdalnym:
 Po utworzeniu repozytorium na GitHubie, zobaczysz instrukcje, jak połączyć istniejące 
 lokalne repozytorium. Będą wyglądać mniej więcej tak:
 
-| Bash  
-|     
+| Bash   
 | git remote add origin https://github.com/TwojaNazwaUzytkownika/moj-pierwszy-projekt-git.git  
+|--   
 | git branch -M main # Zmień master na main, jeśli jeszcze tego nie zrobiłeś  
 | git push -u origin main  
 
@@ -158,9 +158,9 @@ Pobieranie zmian z GitHuba (pull):
 Jeśli ktoś inny wprowadził zmiany do repozytorium na GitHubie, możesz je pobrać na swój 
 lokalny komputer:
 
-| Bash  
-|     
+| Bash     
 | git pull origin main  
+|--  
 
 
 Ważne Wskazówki
