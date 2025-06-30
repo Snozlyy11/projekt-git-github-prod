@@ -1,9 +1,9 @@
-Szymon Ślusarczyk     Na: [429004]    |    Kacper Augustyniak    Na: [428954]
+Szymon Ślusarczyk     Nr. albumu: [429004]    |    Kacper Augustyniak    Nr. albumu: [428954]
 
 
-Kierownik projektu: Szymon Ślusarczyk     Na: [429004]
+Kierownik projektu: Szymon Ślusarczyk     Nr. albumu: [429004]
 
-    Wytkonał:
+    Wykonał:
         Strona Główna (index.md)
         Wprowadzenie do Projektu (projekt.md)
         Przykłady - Praktyczny Warsztat (przykłady/)
